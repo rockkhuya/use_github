@@ -63,7 +63,7 @@ git fetch
 
 # Nếu master có thay đổi thì phải rebase lại để tránh conflict
 # Nếu có conflict thì sửa lại, commit lại
-git rebase origin/master
+git rebase master
 
 # Cuối cùng thì push vào remote
 git push origin create_test
